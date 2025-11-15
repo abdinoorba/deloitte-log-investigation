@@ -10,7 +10,9 @@ A recent news publication leaked sensitive private information belonging to Daik
 This investigation was conducted to determine whether the anomalous activity was caused by an external threat actor or by a compromised internal account. Through log forensics, behavioral pattern analysis, and Python-based detection, the goal is to identify Indicators of Compromise (IOCs), determine abnormal user actions, and evaluate whether the telemetry system was exposed or abused.
 
 **Tools:** Linux (WSL Ubuntu), grep, awk, sort, uniq, Python 3, Mermaid.js, ShareX
+
 **Log Source:** Deloitte Cybersecurity Virtual Experience
+
 **File Analyzed:** `web_activity.log`
 
 ---

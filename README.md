@@ -238,8 +238,8 @@ This visualization helps demonstrate that the account first logged in legitimate
 
 **Key Files**
 
-* `web_activity.log`
-* `log_parser.py`
+- [`web_activity.log`](./logs/web_activity.log)
+- [`log_parser.py`](./scripts/log_parser.py)
 
 ---
 

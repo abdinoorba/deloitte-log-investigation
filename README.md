@@ -1,7 +1,7 @@
 
 ---
 
-# **Lab 02: Web Log Forensics Investigation and Compromised Internal Account Analysis (Deloitte Cybersecurity Simulation)**
+# **Web Log Forensics Investigation and Compromised Internal Account Analysis (Deloitte Cybersecurity Simulation)**
 
 ## **Background and Incident Context**
 

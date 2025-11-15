@@ -39,7 +39,7 @@ The baseline structure of `web_activity.log` was examined to understand:
 * How factory/machine-status enumeration requests are logged
 
 **GIF:**
-![Log Overview](https://raw.githubusercontent.com/abdinoorba/deloitte-log-investigation/main/gifs/LogOverview.gif)
+![Log Overview](https://raw.githubusercontent.com/abdinoorba/cybersecurity-log-investigation/main/gifs/LogOverview.gif)
 
 **Sample log excerpt:**
 
@@ -67,7 +67,7 @@ grep -o 'authorizedUserId: "[^"]*"' ./web_activity.log \
 ```
 
 **Demo:**
-![User IDs](https://raw.githubusercontent.com/abdinoorba/deloitte-log-investigation/main/gifs/UserIDs.gif)
+![User IDs](https://raw.githubusercontent.com/abdinoorba/cybersecurity-log-investigation/main/gifs/UserIDs.gif)
 
 **Output:**
 
@@ -100,7 +100,7 @@ grep '/api/factory/machine/status' ./web_activity.log \
 ```
 
 **Demo:**
-![Machine Status](https://raw.githubusercontent.com/abdinoorba/deloitte-log-investigation/main/gifs/MachineStatus.gif)
+![Machine Status](https://raw.githubusercontent.com/abdinoorba/cybersecurity-log-investigation/main/gifs/MachineStatus.gif)
 
 **Output:**
 
@@ -136,7 +136,7 @@ python3 log_parser.py ./web_activity.log
 ```
 
 **Demo:**
-![Python Analysis](https://raw.githubusercontent.com/abdinoorba/deloitte-log-investigation/main/gifs/Python.gif)
+![Python Analysis](https://raw.githubusercontent.com/abdinoorba/cybersecurity-log-investigation/main/gifs/Python.gif)
 
 **Output:**
 
@@ -165,7 +165,7 @@ grep -Ev '^192\.168' ./web_activity.log | wc -l
 ```
 
 **Demo:**
-![Check External](https://raw.githubusercontent.com/abdinoorba/deloitte-log-investigation/main/gifs/CheckExternal.gif)
+![Check External](https://raw.githubusercontent.com/abdinoorba/cybersecurity-log-investigation/main/gifs/CheckExternal.gif)
 
 **Output:**
 
